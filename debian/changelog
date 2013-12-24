@@ -1,3 +1,9 @@
+liblocale-gettext-perl (1.05-7build1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 21:42:20 +0000
+
 liblocale-gettext-perl (1.05-7build1) precise; urgency=low
 
   * Rebuild for Perl 5.14.

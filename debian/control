@@ -1,14 +1,16 @@
 Source: liblocale-gettext-perl
 Section: perl
 Priority: required
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Raphaël Hertzog <hertzog@debian.org>, Niko Tyni <ntyni@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Raphaël Hertzog <hertzog@debian.org>, Niko Tyni <ntyni@debian.org>,
  gregor herrmann <gregoa@debian.org>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 8)
 Homepage: http://search.cpan.org/dist/gettext/gettext.pm
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocale-gettext-perl/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocale-gettext-perl/
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: liblocale-gettext-perl
 Architecture: any
