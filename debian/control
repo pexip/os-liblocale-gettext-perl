@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 8)
 Homepage: http://search.cpan.org/dist/gettext/gettext.pm
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocale-gettext-perl/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocale-gettext-perl/
-XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: liblocale-gettext-perl
 Architecture: any
