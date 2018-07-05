@@ -1,5 +1,5 @@
 Locale::gettext
-version 1.05
+version 1.07
 
 This is a perl5 module quickly written to gain access to
 the C library functions for internatialization. They
@@ -8,7 +8,7 @@ work just like the C versions.
 As of version 1.04, an object oriented interface more
 suitable to native Perl programs is available.
 
-Locale::gettext is Copyright 1996..2005 by Phillip Vandry
+Locale::gettext is Copyright 1996..2005 by Kim Vandry
 <vandry@TZoNE.ORG>. All rights reserved.
 
 This library is free software; you may distribute under the terms
@@ -17,6 +17,12 @@ specified in the Perl README file.
 
 Changes
 -------
+
+1.07	Fix test failures caused by $LANGUAGE being set
+
+1.06	Bugfix: #104667	Makefile.PL libaries need to be listed after .o files
+	Bugfix: #104668	ensure availability of locale API, correct typo in documentation
+	Add META.yml (Fixes #91921)
 
 1.05	Bugfix: [cpan #13042] useless #ifdef should be #if
 	Bugfix: [cpan #13044] make test fails when using POSIX locale
@@ -48,7 +54,7 @@ Note that your vendor's implementation of these functions
 may be a bit different, but I think that in general these
 are quite standard POSIX functions.
 
-Phillip Vandry <vandry@TZoNE.ORG>
+Kim Vandry <vandry@TZoNE.ORG>
 Mlink Internet <http://www.Mlink.NET>
 July 1996
 
