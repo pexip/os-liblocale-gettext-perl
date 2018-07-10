@@ -1,3 +1,9 @@
+liblocale-gettext-perl (1.07-3pexip1) pexip; urgency=medium
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 10 Jul 2018 11:19:32 +0000
+
 liblocale-gettext-perl (1.07-3) unstable; urgency=medium
 
   * Team upload.
