@@ -35,6 +35,15 @@ WriteMakefile(
     NAME => "Locale::gettext",
     LIBS => ($libs eq '') ? [] : [$libs],
     VERSION_FROM => 'gettext.pm', 
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/vandry/Perl-Locale-gettext',
+            license => 'http://dev.perl.org/licenses/',
+        },
+    },
+    ABSTRACT => "Perl bindings for POSIX i18n gettext functions",
+    AUTHOR => "Kim Vandry <vandry@TZoNE.ORG>",
+    LICENSE => 'perl',
 );
 
 sub conftest {
@@ -50,7 +59,7 @@ sub conftest {
 	close TEST;
 	open(SAVE, ">&STDERR");
 	open(STDERR, ">/dev/null");
-	system($cc . " -o conftest " . $libs . " conftest.c");
+	system($cc . " -o conftest " . " conftest.c " . $libs);
 	my $exitstatus = $?;
 	open(STDERR, ">&SAVE");
 	if ($exitstatus != 0) {

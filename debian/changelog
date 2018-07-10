@@ -1,3 +1,56 @@
+liblocale-gettext-perl (1.07-3) unstable; urgency=medium
+
+  * Team upload.
+  * Enable all hardening build flags.
+  * Declare compliance with Standards-Version 3.9.8.
+
+ -- intrigeri <intrigeri@debian.org>  Fri, 08 Jul 2016 12:45:22 +0000
+
+liblocale-gettext-perl (1.07-2) unstable; urgency=medium
+
+  * Team upload from the Debian Perl Sprint in Zürich.
+
+  [ gregor herrmann ]
+  * Rename autopkgtest configuration file(s) as per new pkg-perl-
+    autopkgtest schema.
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Niko Tyni ]
+  * Modernize the cross building support. (See #717433)
+    + build profile restrictions require build dependencies on
+      dpkg-dev (>= 1.17.14) and debhelper (>=  debhelper 9.20141010).
+
+ -- Niko Tyni <ntyni@debian.org>  Sun, 22 May 2016 13:00:15 +0300
+
+liblocale-gettext-perl (1.07-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.07.
+    + fixes test failures caused by $LANGUAGE being set (Closes: #796152)
+    + remove obsolete debian/patches
+  * Add debian/upstream/metadata.
+
+ -- Niko Tyni <ntyni@debian.org>  Mon, 28 Sep 2015 21:20:54 +0300
+
+liblocale-gettext-perl (1.05-9) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Raphaël Hertzog ]
+  * Drop myself from Uploaders.
+
+  [ Axel Beckert ]
+  * Fix broken MetaCPAN URL in debian/copyright. Thanks DUCK!
+
+  [ Niko Tyni ]
+  * Make the package autopkgtestable
+  * Mention the module name in the long description
+
+ -- Niko Tyni <ntyni@debian.org>  Fri, 05 Jun 2015 17:23:28 +0300
+
 liblocale-gettext-perl (1.05-8+b1pexip1) pexip; urgency=low
 
   * Migrate to Jessie
