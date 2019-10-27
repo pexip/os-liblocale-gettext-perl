@@ -1,3 +1,17 @@
+liblocale-gettext-perl (1.07-4) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Niko Tyni ]
+  * Update build system and dependencies for cross builds
+  * Replace debian/compat with a build dependency on debhelper-compat
+  * Update to debhelper compat level 12
+  * Update to Standards-Version 4.4.1
+  * Declare that the package does not need (fake)root to build
+
+ -- Niko Tyni <ntyni@debian.org>  Sun, 27 Oct 2019 17:04:12 +0200
+
 liblocale-gettext-perl (1.07-3) unstable; urgency=medium
 
   * Team upload.
