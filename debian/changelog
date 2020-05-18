@@ -1,8 +1,8 @@
-liblocale-gettext-perl (1.07-3+b1pexip2) pexip; urgency=medium
+liblocale-gettext-perl (1.07-3+b4pexip2) pexip; urgency=medium
 
   * Migrate to Buster
 
- -- Vincent Sanders <vince@pexip.com  Mon, 27 Apr 2020 13:17:56 +0100
+ -- Vincent Sanders <vince@pexip.com>  Mon, 27 Apr 2020 13:17:56 +0100
 
 liblocale-gettext-perl (1.07-3+b1pexip1) pexip; urgency=medium
 
