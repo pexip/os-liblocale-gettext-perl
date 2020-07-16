@@ -1,3 +1,9 @@
+liblocale-gettext-perl (1.07-3+b4pexip3) pexip; urgency=medium
+
+  * Force a rebuild
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Jul 2020 16:40:43 +0100
+
 liblocale-gettext-perl (1.07-3+b4pexip2) pexip; urgency=medium
 
   * Migrate to Buster
