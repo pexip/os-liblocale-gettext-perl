@@ -1,3 +1,9 @@
+liblocale-gettext-perl (1.07-4pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:26 +0100
+
 liblocale-gettext-perl (1.07-4) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]
