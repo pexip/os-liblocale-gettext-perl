@@ -1,5 +1,6 @@
 ---
 Archive: CPAN
-Contact: Kim Vandry <vandry.ORG>
-Name: Locale-gettext
-Repository: https://github.com/vandry/Perl-Locale-gettext
+Repository: https://github.com/vandry/Perl-Locale-gettext.git
+Bug-Database: https://github.com/vandry/Perl-Locale-gettext/issues
+Repository-Browse: https://github.com/vandry/Perl-Locale-gettext
+Bug-Submit: https://github.com/vandry/Perl-Locale-gettext/issues/new
