@@ -5,8 +5,8 @@ Priority: required
 Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 XSBC-Pexip-Original-Uploaders: Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>
-Standards-Version: 4.4.1
-Build-Depends: debhelper-compat (= 12), perl:native, perl-xs-dev
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), perl:native, perl-xs-dev
 Homepage: https://metacpan.org/release/gettext
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liblocale-gettext-perl.git
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liblocale-gettext-perl

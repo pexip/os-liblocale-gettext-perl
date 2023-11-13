@@ -1,3 +1,24 @@
+liblocale-gettext-perl (1.07-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 06 Dec 2022 21:43:16 +0000
+
 liblocale-gettext-perl (1.07-4+b1pexip2) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
@@ -336,13 +357,13 @@ liblocale-gettext-perl (1.01-10) unstable; urgency=medium
 
 liblocale-gettext-perl (1.01-9) unstable; urgency=low
 
-  * Compiled with perl-5.6. Conforms to policy 3.2.1. 
+  * Compiled with perl-5.6. Conforms to policy 3.2.1.
 
  -- Raphael Hertzog <hertzog@debian.org>  Tue, 26 Dec 2000 18:04:19 +0100
 
 liblocale-gettext-perl (1.01-8) unstable; urgency=low
 
-  * Policy 3.0.1 compliance. Built with debhelper 2.0.40. 
+  * Policy 3.0.1 compliance. Built with debhelper 2.0.40.
 
  -- Raphael Hertzog <hertzog@debian.org>  Thu,  9 Sep 1999 13:24:53 +0200
 
@@ -363,7 +384,7 @@ liblocale-gettext-perl (1.01-6) unstable; urgency=low
 
 liblocale-gettext-perl (1.01-5) unstable; urgency=low
 
-  * Corrected the README gettext -> Locale::gettext. Closes: #38481 
+  * Corrected the README gettext -> Locale::gettext. Closes: #38481
 
  -- Raphael Hertzog <rhertzog@hrnet.fr>  Fri, 28 May 1999 23:53:37 +0200
 
@@ -382,7 +403,7 @@ liblocale-gettext-perl (1.01-3) unstable; urgency=low
 
 liblocale-gettext-perl (1.01-2) unstable; urgency=low
 
-  * Changed section/priority to base/required to be able to i18ize 
+  * Changed section/priority to base/required to be able to i18ize
     all perl scripts that are in the base system (adduser, dpkg-divert, ...).
 
  -- Raphael Hertzog <rhertzog@hrnet.fr>  Wed, 10 Feb 1999 00:34:24 +0100
@@ -392,5 +413,3 @@ liblocale-gettext-perl (1.01-1) unstable; urgency=low
   * Initial Release.
 
  -- Raphael Hertzog <rhertzog@hrnet.fr>  Tue, 29 Dec 1998 12:11:58 +0100
-
-
