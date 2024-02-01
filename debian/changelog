@@ -1,3 +1,9 @@
+liblocale-gettext-perl (1.07-5+pexip24u3) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:05:29 +0000
+
 liblocale-gettext-perl (1.07-5pexip2) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
