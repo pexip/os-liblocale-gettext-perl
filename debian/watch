@@ -1,3 +1,2 @@
 version=4
-
-https://metacpan.org/release/gettext   .*/gettext-v?@ANY_VERSION@@ARCHIVE_EXT@$
+https://metacpan.org/release/Locale-gettext   .*/Locale-gettext-v?@ANY_VERSION@@ARCHIVE_EXT@$
