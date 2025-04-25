@@ -9,3 +9,6 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 # package is part of the base system
 override_dh_perl:
 	dh_perl -d
+
+override_dh_auto_test:
+	LC_ALL=bg_BG.utf8 dh_auto_test
